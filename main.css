@@ -1,0 +1,58 @@
+h1, h2, h3, h4, ul li {
+  font-family: 'Oswald', sans-serif;
+}
+
+
+header {
+    background-color: #5a2ad6;
+    color: white;
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #5a2ad6;
+  font-size: .75rem;
+}
+
+.menu ul li {
+  list-style-type: none;
+  display: inline;
+  color: #5a2ad6;
+  font-size: 3rem;
+  border-style: solid;
+  border-color: #5a2ad6;
+  border-width: thick;
+  padding: 0 24px;
+  margin: 4%;
+  box-shadow: 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+#one {
+  background-color: yellow;
+  margin-bottom: 3%;
+}
+#two {
+  background-color: #86f7c2;;
+  margin-bottom: 3%;
+}
+#three {
+  background-color: #91ef69;
+  margin-bottom: 3%;
+}
+
+.selectedcolor {
+  background-color: blue !important;
+}
+
+.vredo {
+  display: none;
+}
+.btn {
+    background-color: blue;
+    border-radius: 5px;
+    padding: 1%;
+    color: white;
+}
